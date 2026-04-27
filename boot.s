@@ -116,7 +116,7 @@ _start:
     */
 
     cli
-    hlt
+1:  hlt
     jmp 1b
 
     /*
